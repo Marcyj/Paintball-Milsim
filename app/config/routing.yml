@@ -1,0 +1,3 @@
+milsim_paintball_back_office:
+    resource: "@MilsimPaintballBackOfficeBundle/Resources/config/routing.yml"
+    prefix:   /
