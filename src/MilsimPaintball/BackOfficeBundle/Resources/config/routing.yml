@@ -1,3 +1,0 @@
-milsim_paintball_back_office_homepage:
-    path:     /
-    defaults: { _controller: MilsimPaintballBackOfficeBundle:Default:index }
