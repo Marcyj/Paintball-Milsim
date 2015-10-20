@@ -3,7 +3,7 @@
 
  $email = $_POST['email'];
  $user = "root";
- $pass = "";
+ $pass = "buLop2RE6x";
 
 try {
   $dbh = new PDO('mysql:host=localhost;dbname=MilsimPaintball', $user, 'root');
