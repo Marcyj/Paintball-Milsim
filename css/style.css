@@ -45,8 +45,9 @@ body {
 	box-shadow: inherit;
 	color: white;
 }
-.btn-newsletter {
-
+#btn-newsletter {
+	padding: 0px;
+	margin-top: 10px;
 }
 .btn-newsletter button {
 	width: 100%;

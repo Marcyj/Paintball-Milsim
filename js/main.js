@@ -14,15 +14,25 @@ function updateImageSize() {
 	var lg  = window.matchMedia( "(min-width: 1200px)");
 
 	if (sm.matches) {
+		console.log('sm');
 		img.setAttribute("src", "img/title-mobile.png");
+		btnNewsLetter.style.marginTop = "10px";
+		btnNewsLetter.style.paddingLeft = "0px";
+		btnNewsLetter.style.paddingRight = "0px";
 	} else if (md.matches) {
+		console.log('md');
 		img.setAttribute("src", "img/litle-title.png");
-		console.log("test");
-		document.getElementById("btn-newsletter").style = "padding : 0px !important; margin-top: 10px;"
-		btnNewsLetter.style.paddingRight = "0px !important;"
+		document.getElementById("btn-newsletter").style = "padding : 0px; margin-top: 10px;"
+		btnNewsLetter.style.marginTop = "10px";
+		btnNewsLetter.style.paddingLeft = "0px";
+		btnNewsLetter.style.paddingRight = "0px";
 	} else if (lg.matches) {
+		console.log('LG');
 		img.setAttribute("src", "img/Titre.png");
-		document.getElementById("btn-newsletter").style = "margin-top: 0px"
+		// document.getElementById("btn-newsletter").style = "margin: 0px !important;"
+		btnNewsLetter.style.marginTop = "0px";
+		btnNewsLetter.style.paddingLeft = "15px";
+		btnNewsLetter.style.paddingRight = "15px";
 	}
 }
 
