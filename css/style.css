@@ -1,8 +1,55 @@
 body { 
-/*  background: url(../img/background.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
+  background: url(../img/dark.png); 
+ /* -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;z*/
+  background-size: cover;*/
+}
+@media (min-width: @screen-md-min) {
+	.btn-newsletter {
+		padding: 0px !important
+	}
+ }
 
+.title {
+	margin-top: 100px;
+}
+
+.maintenance {
+	color: white;
+	text-align: center;
+}
+.msg {
+	margin-top: 150px;
+}
+.msg h5 {
+	margin-top: 20px;
+}
+.newsletter{
+	margin-top: 100px;
+}
+.newsletter h4 {
+	text-align: left;
+	padding-left: 15px
+}
+
+.form-inline {
+	border: 1px solid white;
+}
+.form-inline input {
+	border: none;
+	background-color: transparent;
+	width: 100% !important;
+}
+.form-inline input:focus {
+	box-shadow: inherit;
+	color: white;
+}
+.btn-newsletter {
+
+}
+.btn-newsletter button {
+	width: 100%;
+	border-radius: 0px !important;
+	border: 2px solid white;
 }
